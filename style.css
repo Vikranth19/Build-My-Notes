@@ -1,0 +1,52 @@
+.backColor{
+    color: yellow;
+}
+
+.noneColor{
+    color: rgba(26, 24, 24, 0.76);
+}
+
+body{
+    background: linear-gradient(to right, rgb(233, 226, 226) , rgb(92, 3, 119));
+}
+
+.addcard{
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgb(121, 74, 12);
+}
+
+.card-title{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.yournotes{
+    margin: 50px 10px 10px 10px;
+    box-shadow: -7px -5px 10px rgb(227, 240, 44);
+    border-radius: 15px;
+    background-color: rgb(32, 190, 124);
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.noteCard{
+    background-color: rgb(221, 206, 71);
+    border-radius: 10px;
+    box-shadow: -7px -5px 10px green;
+}
+
+.noteCard:hover{
+    transform: scale(1.05);
+}
+
+.noteTitle{
+    color: black;
+}
+
+.card-text{
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5em;
+}
+
